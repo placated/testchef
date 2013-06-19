@@ -1,0 +1,11 @@
+{
+
+"mysql": {
+    "server_root_password": "willjames",
+    "server_repl_password": "willjames",
+    "server_debian_password": "willjames"
+  },
+
+
+  "run_list": [ "recipe[crontabs]", "recipe[baseinstall]", "recipe[motd]", "recipe[wordpress]" ]
+}
